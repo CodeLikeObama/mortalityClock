@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import DateInput from './DateInput'
+import AgeDisplay from './AgeDisplay';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <DateInput onDateChange={handleDateChange}></DateInput>
+      <AgeDisplay birthDate={date} ></AgeDisplay>
     </>
   )
 }
