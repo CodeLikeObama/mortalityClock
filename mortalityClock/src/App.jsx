@@ -4,9 +4,15 @@ import DateInput from './DateInput'
 
 function App() {
 
+  const [date, setDate] = useState(null);
+
+  const handleDateChange = (newDate) => {
+    setDate(newDate)
+  };
+
   return (
     <>
-      <DateInput></DateInput>
+      <DateInput onDateChange={handleDateChange}></DateInput>
     </>
   )
 }
