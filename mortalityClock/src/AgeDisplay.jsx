@@ -3,7 +3,6 @@ import './DateInput.css'
 
 const DateInput = ({ onDateChange }) => {
   const [date, setDate] = useState("");
-
   const handleSubmit = (e) => {
     e.preventDefault();
     onDateChange(new Date(date));
