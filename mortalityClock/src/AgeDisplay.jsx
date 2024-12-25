@@ -14,6 +14,7 @@ const AgeDisplay = ({ birthDate }) => {
 
     const fractionalPart = diffYearsFloat - diffYears;
     const limitedFractional = fractionalPart.toFixed(8)
+    const fractional = Math.floor(limitedFractional * 100000000)
 
     console.log("now=" + now)
     console.log("yearsFloat=" + diffYearsFloat)
@@ -22,7 +23,7 @@ const AgeDisplay = ({ birthDate }) => {
     console.log("birthdate= " + birthDate)
     console.log("diff= " + diff)
 
-    return {diffYears, limitedFractional};
+    return {diffYears, fractional};
   }
 
   useEffect(() => {
@@ -41,7 +42,7 @@ const AgeDisplay = ({ birthDate }) => {
 
     <>
       <h1 id="year">{age.diffYears}</h1>
-      <h2 id="fractional">{age.limitedFractional}</h2>
+      <h2 id="fractional">{age.fractional}</h2>
     </>
 
   )
