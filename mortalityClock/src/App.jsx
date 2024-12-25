@@ -8,7 +8,10 @@ function App() {
 
   const [date, setDate] = useState(savedDate ? new Date(savedDate) : null);
 
- 
+  function clearStorage() {
+    localStorage.removeItem('birthDate');
+    setDate(null); 
+  }
 
   const handleDateChange = (newDate) => {
     setDate(newDate);
@@ -17,8 +20,10 @@ function App() {
 
   return (
     <>
-      <DateInput onDateChange={handleDateChange}></DateInput>
-      <AgeDisplay birthDate={date} ></AgeDisplay>
+      {date === null 
+      ? <DateInput onDateChange={handleDateChange} /> 
+      : <AgeDisplay birthDate={date} />}
+      <button onClick={clearStorage}>clearStorage</button>
     </>
   )
 }
