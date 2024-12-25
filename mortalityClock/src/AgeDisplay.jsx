@@ -13,8 +13,8 @@ const AgeDisplay = ({ birthDate }) => {
     const diffYears = Math.floor(diffYearsFloat);
 
     const fractionalPart = diffYearsFloat - diffYears;
-    const limitedFractional = fractionalPart.toFixed(8)
-    const fractional = Math.floor(limitedFractional * 100000000)
+    const limitedFractional = fractionalPart.toFixed(9)
+    const fractional = Math.floor(limitedFractional * 1000000000)
 
     console.log("now=" + now)
     console.log("yearsFloat=" + diffYearsFloat)
