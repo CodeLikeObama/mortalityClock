@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 const AgeDisplay = ({ birthDate }) => {
-  const[age, setAge] = useEffect(calculateAge(birthDate))
+  const [age, setAge] = useState(calculateAge(birthDate));
 
 
-
-  console.log(now)
-
-  
   function calculateAge(birthDate) {
 
     const now = new Date()
@@ -19,25 +15,27 @@ const AgeDisplay = ({ birthDate }) => {
     const fractionalPart = diffYearsFloat - diffYears;
     const limitedFractional = fractionalPart.toFixed(8)
 
+    console.log("now=" + now)
+    console.log("yearsFloat=" + diffYearsFloat)
+    console.log("years=" + diffYears)
+    console.log("limitedFractional= " + limitedFractional)
+    console.log("birthdate= " + birthDate)
+    console.log("diff= " + diff)
+
     return {diffYears, limitedFractional};
   }
 
   useEffect(() => {
     const interval = setInterval(() => {
       setAge(calculateAge(birthDate));
-    }, 1000);
+    }, 100);
 
     return () => clearInterval(interval);
 
   }, [birthDate]);
 
 
-  console.log("now=" + now)
-  console.log("yearsFloat=" + diffYearsFloat)
-  console.log("years=" + diffYears)
-  console.log("limitedFractional= " + limitedFractional)
-  console.log("birthdate= " + birthDate)
-  console.log("diff= " + diff)
+ 
 
   return(
 
