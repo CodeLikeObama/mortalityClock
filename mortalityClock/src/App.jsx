@@ -23,7 +23,6 @@ function App() {
       {date === null 
       ? <DateInput onDateChange={handleDateChange} /> 
       : <AgeDisplay birthDate={date} onClearStorage={clearStorage}/>}
-      
     </>
   )
 }
