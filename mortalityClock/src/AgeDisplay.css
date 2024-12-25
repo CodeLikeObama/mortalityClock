@@ -1,0 +1,16 @@
+
+.age-container {
+  display: flex;
+  align-items: flex-start;  
+  gap: 0.3rem;     
+}
+
+#year {
+  font-size: 6rem;  
+  margin-top: 0;   
+}
+
+#fractional {
+  font-size: 3rem;  
+  margin-top: 0; 
+}
