@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './DateInput.css'
 
 const DateInput = ({ onDateChange }) => {
-  const [date, setDate] = useState("");
+  const [date, setDate] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
