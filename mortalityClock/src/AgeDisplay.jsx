@@ -41,7 +41,7 @@ const AgeDisplay = ({ birthDate, onClearStorage }) => {
     <>
       <div className="age-container">
         <h1 id="year">{age.diffYears}</h1>
-        <h2 id="fractional">{age.fractional}</h2>
+        <h2 id="fractional">.{age.fractional}</h2>
       </div>
      <button onClick={onClearStorage}>reset</button>
     </>
