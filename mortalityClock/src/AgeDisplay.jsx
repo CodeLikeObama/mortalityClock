@@ -36,8 +36,6 @@ const AgeDisplay = ({ birthDate }) => {
   }, [birthDate]);
 
 
- 
-
   return(
 
     <>
