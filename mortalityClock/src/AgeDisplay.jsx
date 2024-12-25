@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-
-const AgeDisplay = ({ birthDate }) => {
+import './AgeDisplay.css'
+const AgeDisplay = ({ birthDate, onClearStorage }) => {
   const [age, setAge] = useState(calculateAge(birthDate));
 
 
@@ -41,6 +41,7 @@ const AgeDisplay = ({ birthDate }) => {
     <>
       <h1 id="year">{age.diffYears}</h1>
       <h2 id="fractional">{age.fractional}</h2>
+      <button onClick={onClearStorage}>reset</button>
     </>
 
   )
