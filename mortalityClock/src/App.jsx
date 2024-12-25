@@ -4,11 +4,15 @@ import DateInput from './DateInput'
 import AgeDisplay from './AgeDisplay';
 
 function App() {
+  const savedDate = localStorage.getItem('birthDate')
 
-  const [date, setDate] = useState(null);
+  const [date, setDate] = useState(savedDate ? new Date(savedDate) : null);
+
+ 
 
   const handleDateChange = (newDate) => {
-    setDate(newDate)
+    setDate(newDate);
+    localStorage.setItem('birthDate', newDate.toISOString());
   };
 
   return (
