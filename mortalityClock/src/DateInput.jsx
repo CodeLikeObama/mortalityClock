@@ -11,14 +11,17 @@ const DateInput = ({ onDateChange }) => {
 
   return(
       <form onSubmit={handleSubmit}>
-      <label>Enter your birthdate:</label>
-      <input
-        type="date"
-        value={date}
-        onChange={(e) => setDate(e.target.value)}
-        required
-      />
-      <button id="startButton" type="submit">Start</button>
+        <div className="input-row">
+          <label id="InputLabel">Enter your birthdate:</label>
+          <input
+            id="dateInput"
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+            required
+          />
+        </div>
+        <button id="startButton" type="submit">Start</button>
       </form>
   );
 };
