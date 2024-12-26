@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="9.8581" y1="9.8581" x2="38.1419" y2="38.1419">
+		<stop  offset="0" style="stop-color:#889097"/>
+		<stop  offset="1" style="stop-color:#64717C"/>
+	</linearGradient>
+	<circle style="fill:url(#SVGID_1_);" cx="24" cy="24" r="20"/>
+</g>
+<radialGradient id="SVGID_2_" cx="24" cy="24" r="18.5" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+</radialGradient>
+<circle style="fill:url(#SVGID_2_);" cx="24" cy="24" r="18.5"/>
+<g>
+	<radialGradient id="SVGID_3_" cx="23.8897" cy="7.3943" r="37.8834" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FAFAFB"/>
+		<stop  offset="1" style="stop-color:#C8CDD1"/>
+	</radialGradient>
+	<circle style="fill:url(#SVGID_3_);" cx="24" cy="24" r="17"/>
+</g>
+<g>
+	
+		<line style="fill:none;stroke:#D83B01;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;" x1="24" y1="24" x2="24" y2="36"/>
+</g>
+<g>
+	
+		<line style="fill:none;stroke:#45494D;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;" x1="24" y1="24" x2="32.485" y2="15.515"/>
+</g>
+<g>
+	
+		<line style="fill:none;stroke:#45494D;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:10;" x1="24" y1="24" x2="16.213" y2="20.265"/>
+</g>
+<circle style="fill:#1E2021;" cx="24" cy="24" r="2"/>
+</svg>
