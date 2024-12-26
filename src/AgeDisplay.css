@@ -50,3 +50,30 @@
 #resetButton:hover {
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
 }
+
+
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;  
+    color: black;  
+  }
+
+  #ageText {
+    font-size: 2rem;
+    margin-bottom: -1rem;
+    color: grey;
+  }
+
+  #year, #fractional {
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5), 0 0 15px rgba(0, 0, 0, 0.3);  
+  }
+
+  #resetButton {
+    color: black;  
+  }
+
+  #resetButton:hover {
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black; 
+  }
+}
