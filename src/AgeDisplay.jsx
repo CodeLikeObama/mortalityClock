@@ -14,14 +14,8 @@ const AgeDisplay = ({ birthDate, onClearStorage }) => {
 
     const fractionalPart = diffYearsFloat - diffYears;
     const limitedFractional = fractionalPart.toFixed(9)
-    const fractional = Math.floor(limitedFractional * 1000000000)
-
-    console.log("now=" + now)
-    console.log("yearsFloat=" + diffYearsFloat)
-    console.log("years=" + diffYears)
-    console.log("limitedFractional= " + limitedFractional)
-    console.log("birthdate= " + birthDate)
-    console.log("diff= " + diff)
+    const fractionalString = limitedFractional.toString().split('.')[1] || '000000000'
+    const fractional = fractionalString.padStart(9, '0')
 
     return {diffYears, fractional};
   }
