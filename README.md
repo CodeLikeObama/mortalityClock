@@ -1,8 +1,64 @@
-#  React + Vite
+# Mortality Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You are not getting any younger! ⏳ Use your time wisely and take control of your life.
 
-Currently, two official plugins are available:
+This web app displays your age as a float, inspired by the **memento mori** technique.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Memento Mori:  
+_"Remember that you will die."_ 💀
+
+I built this website to serve as the **homepage** of my browser, reminding me every day to make the most of my time.
+
+### What I learned:
+- 💻 **React & CSS**: Practicing component rendering, conditional rendering, and styling.
+- 🧠 **Local Storage**: Using the browser's local storage to persist data.
+- 🌙 **Light/Dark Mode**: Reacting to and styling based on the user's system theme preference.
+
+## Try it yourself
+
+You can try out the Mortality Clock [here](https://codelikeobama.github.io/mortalityClock/) or by visiting the domain:  
+[https://codelikeobama.github.io/mortalityClock/](https://codelikeobama.github.io/mortalityClock/).  
+Simply enter your birthdate and see how it works! 🚀
+
+
+## How to Set Mortality Clock as Your Homepage
+
+### Chrome:
+1. Open **Chrome**.
+2. Click on the **three dots** in the upper-right corner to open the menu.
+3. Select **Settings**.
+4. Under the **"On startup"** section, select **Open a specific page or set of pages**.
+5. Click **Add a new page**.
+6. In the **URL field**, enter:  
+   `https://codelikeobama.github.io/mortalityClock/`
+7. Click **Add** to save it.
+8. The Mortality Clock will now open every time you launch Chrome.
+
+---
+
+### Firefox:
+1. Open **Firefox**.
+2. Click the **three horizontal lines** in the top-right corner.
+3. Select **Settings**.
+4. Select the **General** section (2nd in list).
+5. Under **Homepage and new windows**, select **Custom URLs...**.
+6. Enter the following URL:
+   `https://codelikeobama.github.io/mortalityClock/`
+7. Close the settings tab. Your homepage is now set!
+
+---
+
+### Safari:
+1. Open **Safari**.
+2. Click on **Safari** in the top menu bar and select **Preferences**.
+3. In the **General** tab, locate the **Homepage** field.
+4. Enter the following URL in the field:
+   `https://codelikeobama.github.io/mortalityClock/`
+5. Close the **Preferences** window. Safari will now load the Mortality Clock as your homepage on startup.
+
+---
+
+
+This project was inspired by the **Mortality**  Chrome Plugin. Its repository can be found [here](https://github.com/alphabt/mortality).
+
+
