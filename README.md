@@ -59,6 +59,6 @@ Simply enter your birthdate and see how it works! 🚀
 ---
 
 
-This project was inspired by the **Mortality**  Chrome Plugin. Its repository can be found [here](https://github.com/alphabt/mortality).
-
+This project was inspired by [Mortality Chrome Plugin](https://github.com/alphabt/mortality).  
+Favicon from https://icons8.com/.
 
