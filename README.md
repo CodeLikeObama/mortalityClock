@@ -16,8 +16,8 @@ I built this website to serve as the **homepage** of my browser, reminding me ev
 
 ## Try it yourself
 
-You can try out the Mortality Clock [here](https://codelikeobama.github.io/mortalityClock/) or by visiting the domain:  
-[https://codelikeobama.github.io/mortalityClock/](https://codelikeobama.github.io/mortalityClock/).  
+You can try out the Mortality Clock [here](https://mlentzler.github.io/mortalityClock/) or by visiting the domain:  
+[https://mlentzler.github.io/mortalityClock/](https://mlentzler.github.io/mortalityClock/).  
 Simply enter your birthdate and see how it works! 🚀
 
 
@@ -30,7 +30,7 @@ Simply enter your birthdate and see how it works! 🚀
 4. Under the **"On startup"** section, select **Open a specific page or set of pages**.
 5. Click **Add a new page**.
 6. In the **URL field**, enter:  
-   `https://codelikeobama.github.io/mortalityClock/`
+   `https://mlentzler.github.io/mortalityClock/`
 7. Click **Add** to save it.
 8. The Mortality Clock will now open every time you launch Chrome.
 
@@ -43,7 +43,7 @@ Simply enter your birthdate and see how it works! 🚀
 4. Select the **General** section (2nd in list).
 5. Under **Homepage and new windows**, select **Custom URLs...**.
 6. Enter the following URL:
-   `https://codelikeobama.github.io/mortalityClock/`
+   `https://mlentzler.github.io/mortalityClock/`
 7. Close the settings tab. Your homepage is now set!
 
 ---
@@ -53,7 +53,7 @@ Simply enter your birthdate and see how it works! 🚀
 2. Click on **Safari** in the top menu bar and select **Preferences**.
 3. In the **General** tab, locate the **Homepage** field.
 4. Enter the following URL in the field:
-   `https://codelikeobama.github.io/mortalityClock/`
+   `https://mlentzler.github.io/mortalityClock/`
 5. Close the **Preferences** window. Safari will now load the Mortality Clock as your homepage on startup.
 
 ---
